@@ -80,7 +80,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://api.github.com/repos/facebook/create-react-app/issues")
+    fetch("https://api.github.com/repos/gagishmagi/github-issues-react/issues?state=all")
       .then(function(response) {
         return response.json();
       })
